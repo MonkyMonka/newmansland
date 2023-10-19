@@ -2,8 +2,7 @@
   "block.newmansland.pebbles": "Pebbles",
   "block.newmansland.white_mushroom": "White Mushroom",
   "block.newmansland.short_grass": "Short Grass",
-  "item.newmansland.short_grass": "Short Grass",
   "item.newmansland.potato_mash": "Potato Mash",
 
-  "itemGroup.newmansland": "New Man's Land Tab"
+  "itemGroup.newmansland": "NML's Tab"
 }
