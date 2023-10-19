@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "newmansland:pebbles"
+    },
+    "D": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "pattern": [
+    "#D",
+    "D#"
+  ],
+  "result": {
+    "item": "minecraft:cobbled_deepslate"
+  },
+  "show_notification": true
+}

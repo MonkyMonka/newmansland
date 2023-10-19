@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pebbles": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "newmansland:pebbles"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "newmansland:cobbled_deepslate_from_pebbles"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_pebbles",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "newmansland:cobbled_deepslate_from_pebbles"
+    ]
+  },
+  "sends_telemetry_event": false
+}

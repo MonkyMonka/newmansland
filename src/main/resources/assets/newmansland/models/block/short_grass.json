@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "newmansland:block/short_grass"
+  },
+  "render_type": "cutout"
+}
