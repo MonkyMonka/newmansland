@@ -29,7 +29,7 @@ public class NMLBlockRegistry {
             () -> new PebbleBlock(BlockBehaviour.Properties.of().noOcclusion().sound(SoundType.STONE).instabreak().noCollission()));
 
     public static final RegistryObject<Block> SHORT_GRASS = BLOCKS.register("short_grass",
-            () -> new ShortGrassBlock(Block.Properties.copy(Blocks.FERN).offsetType(BlockBehaviour.OffsetType.XYZ)));
+            () -> new ShortGrassBlock(Block.Properties.copy(Blocks.FERN).offsetType(BlockBehaviour.OffsetType.XZ)));
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }
